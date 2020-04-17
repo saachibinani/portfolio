@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="container nav nav-pills nav-fill nav-item nav-link">
-      <nav>
-        <!--This code is from the Bootstrap website by typing in nav-pills-->
-        <ul class="nav nav-pills nav-fill">
-  <li class="nav-item">
-    <a class="nav-link" href="/index.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="/Binani_AboutMe.html">About Me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Resume</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/Binani_Projects.html">Projects</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/Binani_ContactMe.html">Contact Me</a>
-    </li>
-</ul>
-        </nav>
-    </div>
-  </body>
-    <body>
-      <div class="jumbotron text-center">
-        <h1><strong>Online Portfolio</strong></h1>
+
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>About Me</title>
+</head>
+<script>
+	function doSomething(name) {
+  console.log('Hello, ' + name);
+}
+
+function loggingDecorator(wrapped) {
+  return function() {
+    console.log('Starting');
+    const result = wrapped.apply(this, arguments);
+    console.log('Finished');
+    return result;
+  }
+}
+
+const wrapped = loggingDecorator(doSomething);
+
+</script>
+
+<body>
+	<div class="container nav nav-pills nav-fill nav-item nav-link">
+		<nav>
+			<!--This code is from the Bootstrap website by typing in nav-pills-->
+			<ul class="nav nav-pills nav-fill">
+				<li class="nav-item">
+					<a class="nav-link" href="/index.html" style="color:#A170F3">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="/Binani_AboutMe.html" style="background-color:#A170F3">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Binani_WorkExperience.html" style="color:#A170F3">Work Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/Binani_Projects.html" style="color:#A170F3">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/Binani_ContactMe.html" style="color:#A170F3">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</body>
+
+<body>
+	<div class="container">
+		<div class="jumbotron text-center" style="background-color:#C7C0E5">
+			<h1><strong>About Me</strong></h1>
         <h2>Saachi Binani</h2>
         </div>
+      </div>
       <section class="main">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <a href="#">
-                <img src="Images/htmlitaly.PNG" height="200" width="150" class="img-thumbnail">
+                <img src="Images/smiling.jpg" height="350" width="300" class="img-thumbnail">
               </a>
             </div>
             <div class="col-md-8">
         <p>My name is Saachi Binani, and I am a freshman at Dublin High. My personal career goals include working in computer science. Although I don't know what exact position I want, I am very interested in this field and would love to pursue it as a career. Hopefully in high school I can continue to take more advanced computer science classes, as well as community college classes. I would love to take Computer Science Applications. My parents both work in IT and computer science so I have help at home.
-          
         </p>
+        <p>A good skill I possess for the computer science field is leadership. I am a good leader and work well with others, which is really important for this field. In middle school, I participated in leadership for two years. I was also vice president of a club and a Project Manager for CJSF. I have a lot of leadership experience which would help me a lot in any job. I am also open to learning, which is important because in computer science jobs you are always learning. It's a relatively new field so there are always new things to learn and innovate. I am also very dedicated. This is shown through my nine years learning Kathak, a classical Indian dance. I am very committed to learning and improving myself. In junior year, I plan to complete my Kathak certification. My accomplishments include winning the school spelling bees in 4th and 5th grade, and receiving honor roll every semester of middle school.
+          </p>
+        <p>From being in a new dance team, I have learned not everybody is going to be easy to work with. However, it is important to remember that you are not working for your own benefit, but for the presentation of the whole group. We all have similar goals and should work together to achieive them. It's also important to work hard. Being new to the computer science field, it's challenging to learn a brand new topic so quickly. Even faced with these challenges, I am determined to immerse myself in this field.</p>
+
+        <p>During this break, I've been working on a lot of new hobbies. I have been learning how to cook and bake, even though it's unsuccessful most of the times. I also have started doing a lot more art, like sketching and colored pencils. Recently, I started working out as well. With this much free time at home, we should all work on things that will better our mental and physical health. This shelter in place situation has taught me to not take things for granted, and to out outside more. </p>
+        <p>Thank you for taking the time to read through this page! Feel free to look through the rest of the website for my <a href="Binani_WorkExperience.html">work experience/resume</a>, <a href="Binani_Projects.html">projects</a>, and <a href="Binani_ContactMe.html"> contact information</a>.
+
             </div>
           </div>
         </div>
       </section>
 <footer class="container">
-    <div class="jumbotron">
+    <div class="jumbotron"  style= "background-color:#C7C0E5">
       <div class="row">
     <div class="col-3">
       <a href="mailto:saachibinani@gmail.com">
-      <img src="Images/gmailicon.png"alt="Click here to send an email" width="100" height="100">
+      <img src="Images/gmail_icon.png"alt="Click here to send an email" width="100" height="100">
       </a>
     </div>
     <div class="col-3">
     <a href="https://www.instagram.com/saachibinani/?hl=en">
-      <img src="Images/instagramicon.jpg" alt="Click here to view Saachi's Instagram page" width="100" height="100">
+      <img src="Images/instagramicon.png" alt="Click here to view Saachi's Instagram page" width="100" height="100">
     </a>
     </div>
     <div class="col-5">
@@ -72,4 +100,4 @@
     </div>
 </footer>
     </body>
-</html> 
+</html>
