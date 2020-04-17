@@ -3,23 +3,56 @@
   <head>
     <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
-    <title></title>
+    <title>Home</title>
   </head>
+  <script>
+  function doSomething(name) {
+  console.log('Hello, ' + name);
+}
+
+function loggingDecorator(wrapped) {
+  return function() {
+    console.log('Starting');
+    const result = wrapped.apply(this, arguments);
+    console.log('Finished');
+    return result;
+  }
+}
+</script>
+<script async src="./javascript/index.js"></script>
+
+ <body>
+    <div class="container nav nav-pills nav-fill nav-item nav-link">
+      <nav>
+        <!--This code is from the Bootstrap website by typing in nav-pills-->
+        <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link active" href="/index.html" style="background-color:#A170F3">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/Binani_AboutMe.html" style="color:#A170F3">About Me</a>
+  </li>
+  <li class="nav-item">
+       <a class="nav-link" href="Binani_WorkExperience.html"style="color:#A170F3">Work Experience</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="color:#A170F3"href="/Binani_Projects.html">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/Binani_ContactMe.html" style="color:#A170F3">Contact Me</a>
+    </li>
+</ul>
+        </nav>
+    </div>
+  </body>
   <body>
     <div class="container">
-      <nav class="nav nav-pills nav-fill">
-    <a class="nav-item nav-link active" href="/index.html">Home</a>
-    <a class="nav-item nav-link" href="/Binani_AboutMe.html">About Me</a>
-    <a class="nav-item nav-link" href="#">Resume</a>
-    <a class="nav-item nav-link" href="/Binani_Projects.html">Projects</a>
-    <a class="nav-item nav-link" href="/Binani_ContactMe.html">Contact Me</a>
-    </nav>
-    <div class="container jumbotron">
+    <div class="jumbotron" style= "background-color:#C7C0E5">
     <h1>
-     Saachi Binani's Engineering Portfolio
+     <center>Saachi Binani's Engineering Portfolio</center>
      </h1>
-     <p>Saachi is a freshman at Dublin High. She is currently taking CSP...</p>
-     <a href="/Binani_AboutMe.html">Continue reading...</a>
+     <center><p>Saachi is a freshman at Dublin High. She is currently taking CSP...</p></center>
+     <a href="/Binani_AboutMe.html"><center>Continue reading...</center></a>
     </div>
     </div>
   </body>
@@ -27,66 +60,64 @@
     <div class="row">
        <div class="col-md-6">
          <div class="card flex-md-row">
-           <div class="card-body">
+           <div class="card-body" style="background-color:#D7D4E4">
     <strong>Volunteer Experience</strong>
     <h3>CJSF Food Drive</h3>
         <h4>Winter 2018</h4>
       <p>Saachi volunteered with a canned food drive during her time in CJSF in middle school.</p>
-         <a href="#">Continue reading</a>
+         <a href="Binani_Resume.html">Continue reading</a>
          </div>
       <img src="Images/htmlitaly.PNG" class="card-img-right" style="max-width:250px; max-height:250px">
        </div>
        </div>
      <div class="col-md-6">
          <div class="card flex-md-row">
-           <div class="card-body">
+           <div class="card-body"style="background-color:#D7D4E4">
    <strong>Volunteer Experience</strong>
-    <h3>CJSF Food Drive</h3>
-        <h4>Winter 2018</h4>
-      <p>Saachi volunteered with a canned food drive during her time in CJSF in middle school.</p>
-         <a href="#">Continue reading</a>
+    <h3>Night To Shine</h3>
+        <h4>Winter 2019</h4>
+      <p>Saachi volunteered at a non profit prom for people with special needs.</p>
+         <a href="Binani_Resume.html">Continue reading</a>
          </div>
-      <img src="Images/htmlitaly.PNG" class="card-img-right" style="max-width:250px; max-height:250px">
+      <img src="Images/night to shine.JPG" class="card-img-right" style="max-width:250px; max-height:250px">
          </div>
      </div>
   </div>
 <div class="row">
        <div class="col-md-6">
          <div class="card flex-md-row">
-           <div class="card-body">
-    <strong>Volunteer Experience</strong>
-    <h3>CJSF Food Drive</h3>
-        <h4>Winter 2018</h4>
-      <p>Saachi volunteered with a canned food drive during her time in CJSF in middle school.</p>
-         <a href="#">Continue reading</a>
+           <div class="card-body" style="background-color:#D7D4E4">
+    <strong>Project</strong>
+    <h3>Scratch Project</h3>
+        <h4>August 2019-September 2019</h4>
+      <p>The objective of this project was to create an interactive story using Scratch. Our story was based on Spider-Man, where he worked to defeat villains and come back home...</p>
+         <a href="Binani_Projects.html">Continue reading</a>
          </div>
-      <img src="Images/htmlitaly.PNG" class="card-img-right" style="max-width:250px; max-height:250px">
        </div>
        </div>
      <div class="col-md-6">
          <div class="card flex-md-row">
-           <div class="card-body">
-   <strong>Volunteer Experience</strong>
-    <h3>CJSF Food Drive</h3>
-        <h4>Winter 2018</h4>
-      <p>Saachi volunteered with a canned food drive during her time in CJSF in middle school.</p>
-         <a href="#">Continue reading</a>
+           <div class="card-body" style="background-color:#D7D4E4">
+   <strong>Project</strong>
+    <h3>App Inventor Project</h3>
+        <h4>September 2019-October 2019</h4>
+      <p>The objective of this project was to use a tutorial for a game in App Inventor and change it to make it our own. Our game was based off of Mini Golf...</p>
+         <a href="Binani_Projects.html">Continue reading</a>
          </div>
-      <img src="Images/htmlitaly.PNG" class="card-img-right" style="max-width:250px; max-height:250px">
        </div>
        </div>
   </div>
-  <footer class="container">
-    <div class="jumbotron">
+  <footer class="jumbotron" style= "background-color:#C7C0E5">
+    <div class="container">
       <div class="row">
     <div class="col-3">
       <a href="mailto:saachibinani@gmail.com">
-      <img src="Images/gmailicon.png"alt="Click here to send an email" width="100" height="100">
+      <img src="Images/gmail_icon.png"alt="Click here to send an email" width="100" height="100">
       </a>
     </div>
     <div class="col-3">
     <a href="https://www.instagram.com/saachibinani/?hl=en">
-      <img src="Images/instagramicon.jpg" alt="Click here to view Saachi's Instagram page" width="100" height="100">
+      <img src="Images/instagramicon.png" alt="Click here to view Saachi's Instagram page" width="100" height="100">
     </a>
     </div>
     <div class="col-5">
