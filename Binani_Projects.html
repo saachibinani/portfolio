@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>Projects</title>
+</head>
+<script>
+	function doSomething(name) {
+  console.log('Hello, ' + name);
+}
+
+function loggingDecorator(wrapped) {
+  return function() {
+    console.log('Starting');
+    const result = wrapped.apply(this, arguments);
+    console.log('Finished');
+    return result;
+  }
+}
+
+const wrapped = loggingDecorator(doSomething);
+
+</script>
+
+<body>
+	<div class="container nav nav-pills nav-fill nav-item nav-link">
+		<nav>
+			<!--This code is from the Bootstrap website by typing in nav-pills-->
+			<ul class="nav nav-pills nav-fill">
+				<li class="nav-item">
+					<a class="nav-link" href="/index.html" style="color:#A170F3">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/Binani_AboutMe.html" style="color:#A170F3">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Binani_WorkExperience.html" style="color:#A170F3">Work Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" style="background-color:#A170F3" href="/Binani_Projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/Binani_ContactMe.html" style="color:#A170F3">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</body>
+<div class="container">
+	<div class="jumbotron text-center" style="background-color:#C7C0E5">
+		<h1><strong>Projects</strong></h1>
+        <h2>Saachi Binani</h2>
+        </div>
+  </div>
+  <body>
+    <div class="container">
+  <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+  <iframe src="https://scratch.mit.edu/projects/328038420/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <div class="card-body">
+        <h5 class="card-title">Scratch Project, August 2019-September 2019, Computer Science Principles</h5>
+        <p class="card-text">The objective of this project was to create an interactive story using Scratch. Our story was based on Spider-Man, where he worked to defeat villains and come back home. In this project I did the majority of coding, and about a quarter of the documentation. Features of this project include: choices that create different storylines, sound effects,unique graphics and animations, and humorous endings. By the time it was due, our project didn't work as well as we had hoped. This was due to small bugs which would leave some sprites on the screen longer than needed, and some choices not making sense. However, if we had more time and worked more efficiently, this story would've developed into something very interesting and creative. Since this was my first ever computer science related project, I had a lot to learn. I learned how to use Scratch, and how to create variables and connect blocks. Using different costumes versus sprites was difficult for me, but this project was a great learning experience for that. It was also fun to get creative with the storyline and sprites. Instead of using the Scratch sprites to limit our options, we used PNG files from Google so we had more freedom. Making buttons was also a challenge because each button had to give a signal and it was difficult to keep track of each signal and where it went. My team also had some different views on where the storyline should go, so a lot of compromise was made. You can find our full project documentation <a href="https://docs.google.com/document/d/1wA73r5VDu8T3DafzDBJ3ArzXLAJtepjoaOf4yrJpK2U/edit?usp=sharing" target="_blank">here.</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://repl.it/@saachibinani/SCRUM-Hangman">
+      <img src="Images/hangman.png" class="card-img-top" alt="Click to view the game">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">SCRUM Hangman Project, February 2020, Computer Science Principles</h5>
+        <p class="card-text">The objective of this project was to learn how to use the SCRUM method to create a hangman game using Python programming. This project was really fun because my team worked together really well. We divided up our work efficiently. While some programmed, others worked on <a href="https://docs.google.com/document/d/1gdyF8fTGdSzEwKKZ8QLfXDAKlQVgcZg2wJ7ghYYUFUA/edit" target="_blank">SCRUM documentation</a>. We also did some research on how to make the project look good, like using different colored text. It was confusing at first, but through trial and error we figured it out. I learned a lot about functions and loops. This project was also really helpful for learning how to split up work evenly and for learning how to research. We didn't really face any challenges, the entire project went smoothly. </p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <a href="https://repl.it/@Rendevon/Escape-Room-Python-Challenge">
+      <img src="Images/escaperoom.png" class="card-img-top" alt="Click to view the game">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">Python Escape Room Project, January 2020, Computer Science Principles</h5>
+        <p class="card-text">The goal of this project was to code a game using Python. We had to make different choices and storylines using the theme of an escape room. Our creative process was to make something relatable to the players, like school. We then tried to come up with funny scenarios and interesting storylines that we could build on. It took a lot of planning out, and we created a <a href="Images/flowchart.jpg" target="_blank">flow chart</a> to help us. In this project, my main role was documentation and coming up with the storyline. Some skills I learned were how to code using python and how ot connect functions. It was a function based project, so it was really good practice. One of the challenges we overcame was the issue of organization. There were a LOT of functions and we had to figure out how to keep track of all of them.
+                </div>
+    </div>
+  </div>
+  <footer class="container">
+    <div class="jumbotron" style= "background-color:#C7C0E5">
+      <div class="row">
+    <div class="col-3">
+      <a href="mailto:saachibinani@gmail.com">
+      <img src="Images/gmail_icon.png"alt="Click here to send an email" width="100" height="100">
+      </a>
+    </div>
+    <div class="col-3">
+    <a href="https://www.instagram.com/saachibinani/?hl=en">
+      <img src="Images/instagramicon.png" alt="Click here to view Saachi's Instagram page" width="100" height="100">
+    </a>
+    </div>
+    <div class="col-5">
+    <a href="http://dublin.k12.ca.us/dhs">
+    <img src="Images/DHS2.png" max-width="100" class="float-right" style="max-width:100px">
+    </a>
+    </div>
+      </div>
+    </div>
+</footer>
+    </body>
+</html>
