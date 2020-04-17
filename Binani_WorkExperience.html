@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Resume</title>
+  </head>
+   <script>
+  function doSomething(name) {
+  console.log('Hello, ' + name);
+}
+
+function loggingDecorator(wrapped) {
+  return function() {
+    console.log('Starting');
+    const result = wrapped.apply(this, arguments);
+    console.log('Finished');
+    return result;
+  }
+}
+
+const wrapped = loggingDecorator(doSomething);
+</script>
+ <body>
+    <div class="container nav nav-pills nav-fill nav-item nav-link">
+      <nav>
+        <!--This code is from the Bootstrap website by typing in nav-pills-->
+        <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="/index.html" style="color:#A170F3">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/Binani_AboutMe.html" style="color:#A170F3">About Me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="Binani_WorkExperience.html" style="background-color:#A170F3">Work Experience</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="color:#A170F3"href="/Binani_Projects.html">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/Binani_ContactMe.html" style="color:#A170F3">Contact Me</a>
+    </li>
+</ul>
+        </nav>
+    </div>
+  </body>
+  <div class="container">
+   <div class="jumbotron text-center "  style= "background-color:#C7C0E5">
+        <h1><strong>Work Experience</strong></h1>
+        <h2>Saachi Binani</h2>
+        </div>
+  </div>
+  <div class="container">
+    <h4><strong><a href="Resume.pdf" target="_blank">Here is a link to my resume.</a></strong></h3>
+    <p>
+      One of the guest speakers I found particularily inspiring was Lucas David from Kettering University. Although he did not speak directly about jobs in the computer science field, I thought his perspective on college was something I'd never heard before. It allowed me to open my options. I really like the way he described Kettering as a working college. The idea that your course is based on getting experience in your field is really cool. Another speaker I enjoyed was Shawn Mehaffey from Chevron. His talk was entertaining and it was really interesting to see how he grew and reached the opportunities he had today.
+    </p>
+    <p>
+      For the past two years, I have been volunteering at a non profit event called Night To Shine. It's to hold a prom night for people with special needs. The first year I volunteered, in 2019, I was a date for a person with special needs. The next year, in 2020, I was working the red carpet and also helped with cleanup. These volunteer opportunities were really valuable. I learned a lot about working with people with special needs. Being able to work with people with different limitations and different ways of living is a really good skill to have for any job. I also learned a lot about communication. I had to work with a lot of different people for both nights and it helped me with my collaboration and communication skills.
+    <!---<div class="container">
+    <strong>Career Goal or Objective: 
+    </strong>
+    Work in the computer science field
+    <p class="text-align-right">Contact me: saachibinani@gmail.com or (925)-481-6745</p>
+    <br>
+    <strong><h2>Education</h2></strong>
+    <p>
+    Dublin High School, Dublin
+    <br>
+    Current year: 9th grade
+    <br>
+    Current Courses: Physical Education, Computer Science Principles, Biology, Advanced English 9, Geometry, Spanish 2, Health
+    </p>
+    <br>
+    <strong><h2>Work/Volunteer Experience</h2></strong>
+    <p>
+      Night To Shine, Volunteer, February 8th, 2019
+      <br>
+      Responsibilities included being a date for someone with special needs to their prom.
+    </p>
+    <p>
+      Night To Shine, Volunteer, February 9th, 2020
+      <br>
+      Responsibilities included working the red carpet and helping with the clean up.
+      </p>
+
+    <strong><h2>Skills (Languages/Certifications)</h2></strong>
+    <p>
+    <strong> Languages: </strong> 
+    <ul>
+      <li>Fluent in English</li>
+      <li> Conversant in Spanish and Hindi</li>
+    </ul>
+    </p>
+    <strong><h2>Academic Highlights</h2></strong>
+    <p>
+      <ul>
+      <li>Honor Roll each semester of middle school</li> <li>Promotion from middle school with a CJSF gold seal on diploma</li>
+      <li> Project Manager of Special Needs in CJSF</li>
+      <li>Engineering Academy at Dublin High School</li>
+      <li>CSF at Dublin High School</li>
+      <li>Environmental Advocacy Club and Elephant in the Room Club at Dublin High School</li>
+      </ul>
+      </p>
+      <strong><h2>Extracurricular Activities</h2></strong>
+      <p>
+        <ul>
+        <li>Learning Kathak from Tarana Dance Academy for nine years</li> 
+        <li>Dancing at Mona Khan Company for five years</li> <li>Danced at Rhythm-N-Steps for seven years</li> <li>Hip Hop Club in Fallon Middle School for three years</li>
+        <li> Secretary of Fallon Hip Hop Club for one year</li> <li>Vice President of Fallon Hip Hop Club for one year</li>
+        </ul>
+        </p>
+         <footer class="jumbotron" style= "background-color:#C7C0E5">-->
+    <div class="container">
+      <div class="row">
+    <div class="col-3">
+      <a href="mailto:saachibinani@gmail.com">
+      <img src="Images/gmail_icon.png"alt="Click here to send an email" width="100" height="100">
+      </a>
+    </div>
+    <div class="col-3">
+    <a href="https://www.instagram.com/saachibinani/?hl=en">
+      <img src="Images/instagramicon.png" alt="Click here to view Saachi's Instagram page" width="100" height="100">
+    </a>
+    </div>
+    <div class="col-5">
+    <a href="http://dublin.k12.ca.us/dhs">
+    <img src="Images/DHS2.png" max-width="100" class="float-right" style="max-width:100px">
+    </a>
+    </div>
+      </div>
+    </div>
+  </footer>
+</html>
